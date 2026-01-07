@@ -78,3 +78,13 @@ p {
     font-weight: bold;
   }
 }
+
+.form-label {
+  color: $primary;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: lightgrey;
+  opacity: 1;
+}
