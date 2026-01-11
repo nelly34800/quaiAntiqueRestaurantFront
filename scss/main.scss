@@ -75,7 +75,7 @@ p {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: all 0.3s;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
   }
   .action-image-buttons {
@@ -101,3 +101,14 @@ textarea.form-control::placeholder {
   opacity: 1;
 }
 
+.allreservations {
+  a {
+    display: block;
+    color: $black;
+    padding: 10px;
+  }
+}
+
+.colorPrim {
+  color: $primary;
+}
